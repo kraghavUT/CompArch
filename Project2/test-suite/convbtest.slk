@@ -1,0 +1,10 @@
+.code
+	pushb -128
+	convbi
+	pushb 33
+	pushb 99
+	pushb 88
+	popb
+	popb
+	outb
+	halt

@@ -1,0 +1,5 @@
+.code
+	addi r1, 35
+	addi r3, 31
+	add r0, r1, r3
+	halt

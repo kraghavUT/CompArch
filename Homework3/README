@@ -1,0 +1,2 @@
+Assumes the 64bit integer is placed in the a0 register
+Moves the final count to the a1 register

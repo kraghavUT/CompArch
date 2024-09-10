@@ -1,0 +1,32 @@
+	add r1, r14, r29
+	addi r1, 23
+	sub r1, r14, r29
+	subi r1, 23
+	mul r1, r14, r29
+	div r1, r14, r29
+	and r1, r14, r29
+	or r1, r14, r29
+	xor r1, r14, r29
+	not r1, r14
+	shftr r1, r14, r29
+	shftri r1, 23
+	shftl r1, r14, r29
+	shftli r1, 23
+	br r1
+	brr r1
+	brr 23
+	brnz r1, r14
+	call r1, r14, r29
+	return
+	brgt r1, r14, r29
+	halt
+	mov r1, (r14)(29)
+	mov r1, r14
+	mov r1, 23
+	mov (r1)(29), r14
+	addf r1, r14, r29
+	subf r1, r14, r29
+	mulf r1, r14, r29
+	divf r1, r14, r29
+	in r1, r14
+	out r1, r14

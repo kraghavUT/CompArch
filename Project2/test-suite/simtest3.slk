@@ -1,0 +1,3 @@
+.code
+	call 4
+	halt

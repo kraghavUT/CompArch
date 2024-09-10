@@ -1,0 +1,1 @@
+cc -o hw2 HW2.c -lm

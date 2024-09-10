@@ -1,0 +1,4 @@
+.code
+	inb
+	outb
+	halt

@@ -1,0 +1,6 @@
+.code
+	pushi 859493440
+	pushi 33199
+	addi
+	outi
+	halt

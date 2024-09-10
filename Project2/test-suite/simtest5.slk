@@ -1,0 +1,4 @@
+.code
+	pushs 0
+	
+	halt

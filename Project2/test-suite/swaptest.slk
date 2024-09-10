@@ -1,0 +1,9 @@
+.code
+	pushb -44
+	pushb 22
+	swapb
+	pushi 33
+	popi
+	convbi
+	outi
+	halt

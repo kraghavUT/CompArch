@@ -1,0 +1,11 @@
+.code
+	pushb -128
+	convbi
+	outi
+	pushb 127
+	convbs
+	outs
+	pushd -128
+	convdf
+	outf
+	halt

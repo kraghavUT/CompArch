@@ -1,0 +1,22 @@
+.code
+	pushb 19
+	pushb 1
+	addb
+	popb
+	pushs 2000
+	pushs 570
+	subs
+	pops
+	pushi 2000
+	pushi 570
+	muli
+	popi
+	pushd 8.0
+	pushd 32.0
+	divd
+	popd
+	pushl 2147483647
+	pushl -2147483647
+	addl
+	popl
+	halt

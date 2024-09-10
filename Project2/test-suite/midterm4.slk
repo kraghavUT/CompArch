@@ -1,0 +1,30 @@
+.code
+	pushi 6
+.data
+.int
+:RET
+	0
+.code
+:L1
+	ini
+	swapi
+	pushi 1
+	subi
+	jnz :L1
+	popi
+	call :FUN_ADD
+	call :FUN_ADD
+	call :FUN_ADD
+	call :FUN_ADD
+	call :FUN_ADD
+	convif
+	pushi 6
+	convif
+	divf
+	outf
+	halt
+:FUN_ADD
+	popim :RET
+	addi
+	pushim :RET
+	return

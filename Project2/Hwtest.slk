@@ -1,0 +1,27 @@
+.code
+	pushi 0
+	pushi 0
+	ini
+	popim 150
+	jmp :L1
+.code
+:L1
+;Check loop condition
+	dupi
+	pushim 150
+	subi
+	jz :exit
+;work the loop
+	popi
+	dupi
+	popim 154
+	addi
+	dupi
+	outi
+	pushim 154
+	pushi 1
+	addi
+	jmp :L1
+.code
+:exit
+	halt

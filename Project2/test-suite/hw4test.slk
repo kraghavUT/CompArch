@@ -1,0 +1,23 @@
+.code
+	pushi 0
+	pushi 0
+	ini
+	popim 131072
+	jmp :LOOP
+:LOOP
+	dupi
+	pushim 131072
+	subi
+	jz :FIN
+	popi
+	dupi
+	popim 131076
+	addi
+	dupi
+	outi
+	pushim 131076
+	pushi 1
+	addi
+	jmp :LOOP
+:FIN
+	halt

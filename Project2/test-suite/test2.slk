@@ -1,0 +1,13 @@
+.code
+	pushdm :NO
+	pushdm :NO+8
+	addd
+	outd
+	halt
+.data
+.double
+	32.4
+:NO
+	14.3
+; This program should print 46.7
+; end of program

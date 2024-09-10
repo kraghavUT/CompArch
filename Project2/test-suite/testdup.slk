@@ -1,0 +1,11 @@
+.code
+	pushi 44
+	pushi 293
+	dupi
+	dupi
+	pushi 99
+	dupi
+	popi
+	popi
+	outi
+	halt

@@ -1,0 +1,14 @@
+.code
+	jmp :N1+1
+	jnz :N0
+	jmp :N0+3
+:N0
+	addb
+:N1
+	convbd
+	subi
+	call 300
+	dupi
+:N0
+	subi
+	addi
